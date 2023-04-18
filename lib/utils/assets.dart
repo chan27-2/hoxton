@@ -5,7 +5,7 @@ class MyAssets {
   static const user = "assets/user.png";
   static const check = "assets/check.png";
   static const progress = "assets/progress.png";
-  static const back = "assets/back.svg";
+  static const menu = "assets/menu.svg";
   static const card1 = "assets/card1.png";
   static const card2 = "assets/card2.png";
 

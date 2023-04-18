@@ -8,6 +8,7 @@ ThemeData myTheme = ThemeData(
   appBarTheme: const AppBarTheme(
       elevation: 0,
       backgroundColor: MyThemePalette.whiteColor,
+      iconTheme: IconThemeData(color: MyThemePalette.blackColor),
       systemOverlayStyle: SystemUiOverlayStyle(
         statusBarIconBrightness: Brightness.dark,
         systemNavigationBarColor: Colors.transparent, // Navigation bar
@@ -24,4 +25,5 @@ class MyThemePalette {
   static const whiteColor = Color(0xffffffff);
   static const greenColor = Color(0xff3CD942);
   static const greyColor = Color(0xff7C828A);
+  static const blueColor = Color(0xff147AD6);
 }
