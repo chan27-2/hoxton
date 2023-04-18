@@ -25,7 +25,7 @@ class TopUsersSection extends StatelessWidget {
                 fontWeight: FontWeight.w800),
           ),
           Container(
-            margin: const EdgeInsets.symmetric(vertical: 10),
+            margin: const EdgeInsets.only(top: 10),
             constraints: BoxConstraints(maxHeight: size.height * .12),
             child: BlocBuilder<UserBloc, UserState>(builder: (context, state) {
               if (state is! GotUserNames) {
@@ -47,7 +47,7 @@ class TopUsersSection extends StatelessWidget {
                       child: Column(
                         children: [
                           CircleAvatar(
-                            radius: size.height * .12 * .3,
+                            radius: size.height * .12 * .27,
                             backgroundImage: AssetImage(
                                 MyAssets.getSampleUserBasedOnIndex(i)),
                           ),

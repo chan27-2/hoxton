@@ -153,7 +153,8 @@ class HeaderHomePage extends StatelessWidget {
                 ],
               )
             ],
-          )
+          ),
+          const SizedBox(height: 10),
         ],
       ),
     );
